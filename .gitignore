@@ -1,0 +1,8 @@
+build/
+dist/
+htmlcov/
+.pytest_cache/
+__pycache__/
+.idea/
+.coverage*
+.DS_Store

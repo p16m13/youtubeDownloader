@@ -1,0 +1,15 @@
+[[package]]
+name = "pytube"
+version = "12.1.2"
+description = "Python 3 library for downloading YouTube Videos."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "3.9"
+content-hash = "67800835c4f0930565cfd2673b9f70b11cc19c5e1e36b731b035f4ffdc2dbabe"
+
+[metadata.files]
+pytube = []
