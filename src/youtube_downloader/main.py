@@ -20,7 +20,7 @@ def parse_args(input_args):
     parser.add_argument("--playlist-urls-file", default='playlist_urls.txt',
                         help='Provide the absolute path to the file with playlist URLs')
     parser.add_argument("--output-location", default=f'Downloads/{datetime.now().date()}',
-                        help='Provide the absolute path to the location where the videos will be  downloaded to')
+                        help='Provide the absolute path to the location where the videos will be downloaded to')
     args, _ = parser.parse_known_args(input_args[1:])
     return args
 
@@ -63,7 +63,7 @@ def download_video(link: str, output_location: str) -> None:
             .desc() \
             .first() \
             .download(output_path=output_location)
-        print(f'The video `{video_title}` has downloaded successfully')
+        print(f'The video `{video_title}` has been downloaded successfully')
     except Exception as e:
         print(f'Failed to download the video using link `{link}`. Error message: {str(e)}')
 
